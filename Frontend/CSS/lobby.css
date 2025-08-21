@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 98%;
+    margin: 1%;
+}
+
+svg{
+    width: 100px;
+    height: 100px;
+    color:#232C33;
+}
+
+span p{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.notfull{
+    background-color: #3E92CC;
+    border-radius: 30px;
+    align-items: center;
+    height: 162px;
+    width: 201px;
+    align-content: center;
+}
+
+#addtableButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#addtableButton div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#addtableButton{
+    background-color: #3E92CC;
+    border-radius: 30px;
+    align-items: center;
+    height: 162px;
+    width: 201px;
+    align-content: center;
+}
+.full {
+    background-color: #E01A4F;
+    border-radius: 30px;
+    align-items: center;
+    height: 162px;
+    width: 201px;
+    align-content: center;
+}
+
+.lobby {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.differentTables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.differentTables div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorBox {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #e01a4f;
+    text-align: center;
+    top: 10px;
+    border-radius: 10px;
+    height: 8%;
+    width: 25%;
+    position: absolute;
+    left: calc(50% - 12.5%);
+}
+
+.errorBox .errorMessage {
+    font-size: 18px;
+    width: 90%;
+}

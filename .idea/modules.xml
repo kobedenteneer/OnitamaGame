@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/Onitama.iml" filepath="$PROJECT_DIR$/.idea/Onitama.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/repository_project.iml" filepath="$PROJECT_DIR$/.idea/repository_project.iml" />
+>>>>>>> 1f9aaee0c7088a95076e3b98bab47fc77543581b
+    </modules>
+  </component>
+</project>

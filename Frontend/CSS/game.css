@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+.board tr td {
+    border: 1px solid #FDFFFF;
+    border-radius: 10%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #FDFFFF;
+}
+
+ul li{
+    width: auto;
+}
+
+.startGame {
+    background-color: #3E92CC;
+    width: 150px;
+    height: 35px;
+    display: none;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.succesBox {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #417B5A;
+    text-align: center;
+    top: 10px;
+    border-radius: 10px;
+    height: 8%;
+    width: 25%;
+    position: absolute;
+    left: calc(50% - 12.5%);
+}
+
+.succesBox .succesMessage {
+    font-size: 18px;
+    width: 90%;
+}
+
+.errorBox {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #e01a4f;
+    text-align: center;
+    top: 10px;
+    border-radius: 10px;
+    height: 8%;
+    width: 25%;
+    position: absolute;
+    left: calc(50% - 12.5%);
+}
+
+.errorBox .errorMessage {
+    font-size: 18px;
+    width: 90%;
+}
+
+.opponentCircle, .clientCircle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FDFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.oppUser, .clientUser {
+    display: none;
+}
+.CardContainer {
+    display: flex;
+    gap: 15px; 
+}
+
+.Card {
+    height: 145px;
+    width: 145px;
+    border-radius: 10px;
+    background-color: #3e4f5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px; 
+}
+
+.south {
+    border: 2px solid transparent; 
+}
+
+
+.south .Card:hover {
+    border: 2px solid #FFFFFF;
+}
+
+.Card.clicked {
+    border: 2px solid #FFFFFF;
+}
+
+.CardGrid, .Card span > p, .Card .stamp {
+    border: none; 
+}
+
+div span p {
+    font-size: 12pt;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.CardGrid {
+    margin-top: 5px; /
+}
+
+.CardGrid tr td {
+    width: 17px;
+    height: 17px;
+    border: white 0.5px solid;
+    border-radius: 2px;
+}
+.center{
+    background-color: white;
+}
+
+main.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.extraCard.left {
+    margin-right: 40px;
+    visibility: hidden;
+}
+
+.extraCard.right {
+    margin-left: 40px;
+    visibility: hidden;
+}
+
+.defaultContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stamp {
+    width: 100%;
+    height: 15px;
+    margin: 5px;
+}
+.skipButton{
+    width: 131px;
+    height: 56px;
+    border-radius: 15px;
+    background-color: #3E92CC;
+    justify-content: center;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    padding-top: 17px;
+}

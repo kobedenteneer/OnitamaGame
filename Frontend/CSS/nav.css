@@ -1,0 +1,56 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F3C46; /* Donkerblauwe achtergrondkleur */
+    color: #fff; /* Witte tekstkleur */
+    height: 45px;
+    font-size: 25px;
+    width: 100%;
+}
+
+nav div {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Geen marge aan de linkerkant voor de eerste link */
+}
+
+nav ul li a {
+    color: #fff; /* Witte tekstkleur */
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #232C33;
+}
+
+.current a {
+    background-image: linear-gradient(#E01A4F, #3E92CC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.current {
+    background-color: #232C33;
+
+}

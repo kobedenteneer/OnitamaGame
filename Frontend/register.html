@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Onitama registreer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <script src="./JS/util/errorMessageBox.js"></script>
+    <script src="JS/register.js"></script>
+</head>
+<body>
+<div class="errorBox">
+    <p class="errorMessage"></p>
+</div>
+<main>
+    <div class="formRegister">
+        <h1 class="logo">ONITAMA <span>31</span></h1>
+        <div class="login-field">
+            <input class="input-field" id="username" type="text" name="username" minlength="5" required placeholder="Username">
+            <input class="input-field" id="email" type="email" name="email" required placeholder="Email">
+        </div>
+        <div class="login-field">
+            <input class="input-field" id="password" type="password" name="password" minlength="5" required placeholder="Password">
+            <input class="input-field" id="passwordrepeat" type="password" name="password" minlength="5" required placeholder="Repeat password">
+        </div>
+        <div class="btns">
+            <button type="submit" id="registerButton">Registeren</button>
+            <button id="loginButton" type="button">Login</button>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
