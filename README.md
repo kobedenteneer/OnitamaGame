@@ -1,6 +1,5 @@
 # Onitama – Teamproject (Backend + Frontend)
 
-Korte, werkgever-vriendelijke samenvatting van het project.
 
 ## Wat is dit?
 - **Onitama**: een turn-based bordspel (5x5) met unieke bewegingskaarten.
